@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<!--Conheça os livros do Maujor: http://livrosdomaujor.com.br
+40 Boostrap 3.3.5-->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width" , initial-scale=1">
+
+<title>Livro Bootstrap Maujor</title>
+<link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet"> <!-- CSS do Bootstrap -->
+
+<style type="text/css">
+.row div[class^="col-"] {
+background: #fafafa;
+border:1px solid #ccc;
+}
+.row { margin-bottom: 5px; } /* separa linhas para facilitar visualização */
+
+
+}
+/*.row > div[class^="col-"] {
+background: #f1f1f1;
+border:1px solid #black;
+font-size: 20px;
+font-weight: bold;
+}*/
+.row div[class^="col-"] {
+background: #fafafa;
+border:1px solid #ccc;
+font-size: 30px;
+font-weight: bold;
+padding: 10px 0;
+}
+
+</style>
+</head>
+<body>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<h3>Lista não ordenada</h3>
+				<ul>
+					<li>Abacaxi</li>
+					<li>Laranja
+						<ul>
+							<li>Lima</li>
+							<li>Bahia</li>
+						</ul>
+					</li>
+					<li>Maçã</li>
+				</ul>
+			</div>
+			<div class="col-md-4">
+				<h3>Lista ordenada</h3>
+					<ol>
+						<li>Abacaxi</li>
+						<li>Laranja
+							<ul>
+								<li>Lima</li>
+								<li>Bahia</li>
+							</ul>
+						</li>
+						<li>Maçã</li>
+					</ol>
+			</div>
+			<div class="col-md-4">
+				<h3>Lista sem marcadores</h3>
+				<ul class="list-unstyled">
+					<li>Abacaxi</li>
+					<li>Laranja
+						<ul>
+							<li>Lima</li>
+							<li>Bahia</li>
+						</ul>
+					</li>
+					<li>Maçã</li>
+				</ul>
+			</div>
+		</div> <!-- /.row -->
+		<div class="row">
+			<div class="col-md-12">
+				<h3>Lista não ordenada inline</h3>
+					<ul class="list-inline">
+						<li>Abacaxi</li>
+						<li>Laranja</li>
+						<li>Lima</li>
+						<li>Bahia</li>
+						<li>Maçã</li>
+					</ul>
+			</div>
+		</div> <!-- /.row -->
+		<div class="row">
+			<div class="col-md-6">
+				<h3>Lista de definição padrão</h3>
+					<dl>
+						<dt>Abacaxi</dt>
+							<dd>Ananás ou abacaxi...</dd>
+						<dt>Laranja</dt>
+							<dd>A laranja é o fruto...</dd>
+						<dt>Maçã</dt>
+							<dd>A maçã é o fruto pomáceo...</dd>
+					</dl>
+				</div>
+				<div class="col-md-6">
+				<h3>Lista de definição horizontal</h3>
+					<dl class="dl-horizontal">
+						<dt>Abacaxi</dt>
+							<dd>Ananás ou abacaxi é uma...</dd>
+						<dt>Laranja</dt>
+							<dd>A laranja é o fruto produzido...</dd>
+						<dt>Maçã</dt>
+							<dd>A maçã é o fruto pomáceo...</dd>
+					</dl>
+				</div>
+		</div> <!-- /.row -->
+	</div> <!-- /.container -->
+		
+</body>
+</html>

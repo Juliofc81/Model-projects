@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<!--Conheça os livros do Maujor: http://livrosdomaujor.com.br
+40 Boostrap 3.3.5-->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width" , initial-scale=1">
+
+<title>Livro Bootstrap Maujor</title>
+<link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet"> <!-- CSS do Bootstrap -->
+<link href="../bootstrap/js/bootstrap.min.js" rel="stylesheet">
+
+
+
+<style type="text/css">
+.row div[class^="col-"] {background: #fafafa;
+border:1px solid #ccc;
+}
+.row { margin-bottom: 5px; } /* separa linhas para facilitar visualização */
+
+
+}
+/*.row > div[class^="col-"] {
+background: #f1f1f1;
+border:1px solid #black;
+font-size: 20px;
+font-weight: bold;
+}
+.row div[class^="col-"] {
+background: #fafafa;
+border:1px solid #ccc;
+font-size: 30px;
+font-weight: bold;
+padding: 10px 0;
+}-->
+
+
+</style>
+<style type="text/css">
+	body { margin: 0;
+	 font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+	 font-size: 14px; 
+	 line-height: 1.42857143; 
+	 color: #333; background-color: #fff; 
+	}
+
+</style>
+</head>
+<body>
+		 
+	<div class="row"> 
+	<div class="col-md-6"> 
+		<h4>Barras de progresso com cor em gradiente</h4> 
+		<div class="progress">  
+			<div class="progress-bar" role="progressbar" aria-valuenow="60" 		aria-valuemin="0"    aria-valuemax="100" style="width: 60%;">
+
+	  			<span class="sr-only">60% Complete</span>    
+	   		</div> 
+	   	</div> 
+	   	<div class="progress">  
+	   		<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="40"     aria-valuemin="0" aria-valuemax="100" style="width: 40%;">   
+	   			<span class="sr-only">40% Complete</span>  
+	   		</div> 
+	   	</div> 
+	   	<div class="progress">  
+	   		<div class="progress-bar progress-bar-success" role="progressbar"    	aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">   
+	   			<span class="sr-only">80% Complete</span>  
+	   		</div> 
+	   	</div> 
+	   	<div class="progress">  
+	   		<div class="progress-bar progress-bar-warning" role="progressbar"    	aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%;">   
+	   			<span class="sr-only">30% Complete</span>  
+	   		</div> 
+	   	</div> 
+	   	<div class="progress">  
+	   		<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="50"    aria-valuemin="0" aria-valuemax="100" style="width: 50%;">   
+	   			<span class="sr-only">50% Complete</span>  
+	   		</div> 
+	   	</div> 
+	   	<div class="col-md-6"> 
+	   		<h4>Barra de progresso com efeito zebra</h4> 
+	   	<div class="progress">  
+	   		<div class="progress-bar" role="progressbar progress-bar-striped"    	aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">   
+	   			<span class="sr-only">60% Complete</span>  
+	   		</div> 
+	   	</div> 
+	   	<div class="progress">  
+	   		<div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar"   aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%;">   
+	   			<span class="sr-only">40% Complete</span>  
+	   		</div>
+
+		 </div> 
+		 <div class="progress">  
+		 	<div class="progress-bar progress-bar-success progress-bar-striped"    role="progressbar" aria-valuenow="80" aria-valuemin="0" 	aria-valuemax="100"    style="width: 80%;">   
+		 		<span class="sr-only">80% Complete</span>  
+		 	</div> 
+		 </div> 
+		 <div class="progress">  
+		 	<div class="progress-bar progress-bar-warning progress-bar-striped"    role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"    style="width: 30%;">   
+		 		<span class="sr-only">30% Complete</span>  
+		 	</div> 
+		 </div> 
+		 <div class="progress">  
+		 	<div class="progress-bar progress-bar-danger progress-bar-striped"    role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"    style="width: 50%;">   
+		 		<span class="sr-only">50% Complete</span>  
+		 	</div> 
+		 </div> 
+	</div> 
+</div> <!-- /.row --> 
+<div class="row"> 
+	<div class="col-md-6"> 
+		<h4>Barra de progresso animada</h4> 
+		<div class="progress">  
+			<div class="progress-bar progress-bar-danger progress-bar-striped 	active"    role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"    style="width: 50%;">   
+				<span class="sr-only">50% Complete</span>  
+			</div> 
+		</div> 
+		<div class="col-md-6"> 
+			<h4>Barra de progresso múltipla</h4> 
+			<div class="progress">  
+				<div class="progress-bar progress-bar-danger progress-bar-striped "   role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"    style="width: 40%;">
+		
+		   			<span class="sr-only">40% Complete</span>  
+		   		</div>  
+		   		<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="35"    aria-valuemin="0" aria-valuemax="100" style="width: 35%;">   <span class="sr-only">35% Complete</span>  
+		   		</div>  
+		   		<div class="progress-bar progress-bar-warning" role="progressbar"    aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: 10%;">   
+		   			<span class="sr-only">10% Complete</span>  
+		   		</div> 
+		   	</div> 
+		   </div> 
+		 </div> <!-- /.row --> 
+		 <div class="row"> 
+		 	<div class="col-md-6"> 
+		 		<h4>Barras de progresso com rótulo</h4> 
+		 		<div class="progress">  
+		 			<div class="progress-bar" role="progressbar" aria-valuenow="6ax="100"    style="width: 60%;">   60%  
+		 		</div> 
+		 	</div> 
+		</div> 
+	</div> <!-- /.row -->
+
+
+
+
+
+</body>
+</html>

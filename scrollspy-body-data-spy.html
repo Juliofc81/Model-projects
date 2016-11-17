@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<!--Conheça os livros do Maujor: http://livrosdomaujor.com.br
+40 Boostrap 3.3.5-->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width" , initial-scale=1">
+
+<title>Livro Bootstrap Maujor</title>
+<link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet"> <!-- CSS do Bootstrap -->
+<link href="../bootstrap/js/bootstrap.min.js" rel="stylesheet">
+
+
+
+<style type="text/css">
+.row div[class^="col-"] {background: #fafafa;
+border:1px solid #ccc;
+}
+.row { margin-bottom: 5px; } /* separa linhas para facilitar visualização */
+
+
+}
+/*.row > div[class^="col-"] {
+background: #f1f1f1;
+border:1px solid #black;
+font-size: 20px;
+font-weight: bold;
+}
+.row div[class^="col-"] {
+background: #fafafa;
+border:1px solid #ccc;
+font-size: 30px;
+font-weight: bold;
+padding: 10px 0;
+}-->
+
+
+</style>
+<style type="text/css">
+	body { margin: 0;
+	 font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+	 font-size: 14px; 
+	 line-height: 1.42857143; 
+	 color: #333; background-color: #fff; 
+	}
+
+</style>
+</head>
+
+<body data-spy="scroll" data-target="#barraNavegacao">
+<div class="container-fluid" id="home"> 
+...
+
+<nav class="navbar navbar-default navbar-fixed-top" id="barraNavegacao">
+
+<div class="container-fluid"> 
+<div class="navbar-header"> 
+	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"     data-target="#barraFixaTop"> 
+	... 
+	</button> 
+		<a class="navbar-brand" href="#">Site</a>    
+</div> 
+	<div class="collapse 
+		navbar-collapse" id="barraFixaTop"> 
+		<ul class="nav navbar-nav"> 
+			<li class="active"><a href="#home">Home<span class="sr-only">(current)</span>    </a></li> 
+			<li class="active"><a href="#portfolio">Portfólio<span class="sr-only">(current)</span></a></li> 
+			<li><a href="#materias">Matérias</a></li> 
+			<li><a href="#contato">Contato</a></li>
+		</ul> 
+	</div><!-- /.navbar-collapse --> 
+</div><!-- /.container-fluid --> 
+</div>
+</div>
+	</nav> 
+	<div id="containerConteudo" data-spy="scroll" data-target="#barraNavegacao"> 
+		<div id="portfolio"> 
+		... 
+		</div> 
+		<div id="materias">
+		... 
+		</div> 
+		<div id="contato"> 
+		... 
+		</div> 
+		</div> 
+
+
+		<script type="text/javascript"> 
+		$('body').scrollspy( {target: '#barraNavegacao'} ).on('activate.bs.scrollspy',   function () 
+		{   alert('Foi ativado scrollspy');  
+		}); 
+		</script>
+</body>
+</html>

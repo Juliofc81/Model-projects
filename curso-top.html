@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html ng-app="top" ng-controller="topCtrl">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>TOP</title>
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-aNUYGqSUL9wG/vP7+cWZ5QOM4gsQou3sBfWRr/8S3R1Lv0rysEmnwsRKMbhiQX/O" crossorigin="anonymous">
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+	<!--  Header  -->
+	<div class="top-head">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12 text-center">				
+					<h1>CURSO TOP</h1>
+					<h2>{{greeting}}</h2>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div ng-include src="'partials/menu.html'"></div>
+
+	<div ng-view></div>
+		
+
+	<div class="footer">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<img src="assets/images/footer.png" alt="">
+					<p class="center-align footer-copyright">Copyright @ E-SEED EDUCAÇÃO E TECNOLOGIA 2016</p>
+				</div>
+			</div>
+		</div>	
+	</div>
+
+	
+	
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/angular.min.js"></script>
+	<script src="assets/js/angular-route.min.js"></script>
+	<script src="assets/js/angular-resource.min.js"></script>
+	<script src="assets/js/ui-bootstrap-tpls-2.0.2.min.js"></script>
+	<script src="app/application.js"></script>
+	<script src="assets/js/jquery-ui.min.js"></script>
+	<!--<script src="assets/lib/jquery.easing.js"></script>-->
+		
+</body>
+</html>
